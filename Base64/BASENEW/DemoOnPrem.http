@@ -1,0 +1,16 @@
+@baseurl = https://clothcalctest.azurewebsites.net/api/CurtainRect-V00
+@Username = DESKTOP-S0D0N9V\LENOVO
+@password = UsjZcD2ubCQ/HYBwi5Mx1uUAjZHSCMbkHJqVjqm8fFA=
+
+###
+POST  {{baseurl}}
+# Authorization: Basic {{Username}} {{password}}
+# @name companies
+###
+GET  {{baseurl}}/api/v2.0/companies
+Authorization: Basic {{Username}} {{password}}
+###
+POST {{baseurl}}/api/v2.0/companies
+Authorization: Basic {{Username}} {{password}}
+# @baseurl = http://localhost:7048/BC200
+# @baseurl = http://localhost:7048/BC200/api/Lokesh/demo/v1.0/ApiTestings
